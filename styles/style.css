@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+body{
+  background: url(/images/bg3.avif);
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+.blog-heading h2{
+  color: #2196f3;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Leckerli One', cursive;
+  text-decoration: underline;
+}
+
+/* .menu-bar{
+  list-style: none;
+
+}
+
+.menu{
+  display: none;
+  transform: scale3d(0);
+}
+
+.menu-bar ul li:hover .menu{
+  display: block;
+  position: absolute;
+  margin-top: 15px;
+  margin-right: 10px;
+  background: #2196f3;
+  transform: scale3d(1);
+  transition: transform .9s;
+}
+
+.menu-bar ul li:hover .menu ul{
+  display: block;
+  margin: 10px;
+  transition: .5s;
+
+}  */
+
+@media screen and (max-width: 768px) {
+  
+  .card{
+    flex-direction: column;
+  }
+
+  .card-section{
+    margin-right: 1000px;
+  }
+
+}
